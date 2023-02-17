@@ -118,7 +118,7 @@ The lists below define the available expressions you can use when you are buildi
   </tr> 
   <tr> 
    <td><strong>DATE</strong> </td> 
-   <td> <p>This expression converts a string to a date and is formatted as follows:</p><pre>DATE(string)</pre> </td> 
+   <td> <p>This expression converts a string to a date and is formatted as follows:</p><pre>DATE(string)</pre> <p>The format is as follows: DATE ("YYYY-MM-DD") e.g. DATE("2023-03-23") or DATE("MM/DD/YYYY") e.g. DATE("03/23/2023"). </p> </td>
   </tr> 
   <tr> 
    <td><strong>DATEDIFF</strong> </td> 
