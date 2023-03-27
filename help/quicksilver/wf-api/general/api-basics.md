@@ -279,6 +279,14 @@ The following table lists some of the modifiers you can use with the Workfront A
 >
 >Search requests are case-sensitive. If you receive an error, ensure&nbsp;&nbsp;**_Mod** and **_Range** have the correct capitalization.
 
+#### Search for multiple options of the same parameter
+
+You can filter or search for multiple options on the same parameter. For example, if you want tasks that are in any of 3 statuses this is how you would go about it.
+<pre>
+…status=NEW&status=INP&status=CUR&status_Mod=in…
+</pre>
+So you list each status that you want to include with it's own "&status=" prefix, then at the end of the list add the modifier you need.
+
 #### Using OR Statements
 
 You can enhance a search by adding a parameter that includes "OR" as well as a number to indicate&nbsp;the level of a filter or series of filters.
